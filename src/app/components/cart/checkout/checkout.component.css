@@ -1,0 +1,35 @@
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.validation-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button.btn-success {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.btn-success:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

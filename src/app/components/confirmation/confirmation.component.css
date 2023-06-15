@@ -1,0 +1,52 @@
+.confirmation-container {
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://i.pinimg.com/736x/06/26/13/062613231a04bcea7bdbe83a8ad1c63c.jpg');
+}
+
+.confirmation-container h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.confirmation-container p {
+  margin-bottom: 5px;
+}
+
+.confirmation-container strong {
+  font-weight: bold;
+}
+
+.confirmation-container table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.confirmation-container th,
+.confirmation-container td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+.confirmation-container th {
+  background-color: #f9f9f9;
+}
+
+.confirmation-container button {
+  margin-top: 20px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirmation-container button:hover {
+  background-color: #e60000;
+}
